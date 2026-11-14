@@ -1,1 +1,12 @@
-
+{
+  "name": "pdd-rk-bot",
+  "version": "0.1.0",
+  "description": "Telegram-бот для изучения ПДД РК: тесты как в ЦОНе, но с упором на понимание",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "validate": "node scripts/validate.js",
+    "test": "node --test test/*.test.js"
+  }
+}
